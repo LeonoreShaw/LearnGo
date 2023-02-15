@@ -43,7 +43,7 @@ func remove() {
 
 }
 
-// 工作目录，临时目录
+// 工作目录和临时目录
 func wd() {
 	dir, _ := os.Getwd()
 	fmt.Printf("dir: %v\n", dir)
